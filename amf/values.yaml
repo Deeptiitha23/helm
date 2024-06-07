@@ -10,7 +10,12 @@ service:
   port: 80
 
 resources: {}
+
 nodeSelector: {}
+
 tolerations: []
+
 affinity: {}
+
+namespace: "5g"  # Add this line to set the namespace
 
