@@ -1,0 +1,3 @@
+{{- define "amf.name" -}}
+{{- printf "%s-amf" .Release.Name -}}
+{{- end -}}
